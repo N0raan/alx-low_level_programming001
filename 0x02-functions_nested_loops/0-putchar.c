@@ -16,5 +16,5 @@ int _putchar(char* c)
 int main()
 {
 	_putchar("_putchar");
+	return (1);
 }
-
