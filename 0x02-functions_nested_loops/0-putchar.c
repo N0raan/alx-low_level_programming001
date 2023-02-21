@@ -8,13 +8,16 @@
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-int _putchar(char *c)
+int _putchar(char c)
 {
 	return (write(1, &c, 1));
 }
 
 int main()
 {
-	_putchar("_putchar");
+	char *word = "_putchar";
+	for(int i=0; i < strlen(word);i++){
+	_putchar("%c",source[i]);
+	}
 	return (0);
 }
